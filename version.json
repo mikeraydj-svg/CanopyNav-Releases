@@ -1,12 +1,13 @@
 {
-  "version": "1.0.10",
+  "name": "CanopyNav",
+  "version": "1.0.11",
   "release_date": "2026-09-26",
   "mandatory": false,
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.11/CanopyNav_Setup_v1.0.11.exe",
   "changelog": [
-    "Instant microphone activation on startup (<1.5s)",
-    "Eliminated speech delegation gating lockup",
-    "Enabled instant wake-word barge-in during speech",
+    "Instant startup activation (< 1.5s) eliminating journal disk-scan latency",
+    "Complete unclipped neural speech playback for long flight reports",
+    "Single-instance settings deck with duplicate window prevention",
     "Automated in-app software updater"
-  ],
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.10/CanopyNav_Setup_v1.0.10.exe"
+  ]
 }
