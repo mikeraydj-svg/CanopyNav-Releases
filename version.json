@@ -1,12 +1,11 @@
 {
-  "version": "1.0.23",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.23/CanopyNav_Setup_v1.0.23.exe",
-  "release_date": "2026-09-26",
+  "version": "1.0.24",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.24/CanopyNav_Setup_v1.0.24.exe",
+  "release_date": "2026-09-27",
   "mandatory": false,
   "changelog": [
-    "Fixed personal ship navigation being overridden by stale Fleet Carrier routes",
-    "Added automatic detection for in-game Neutron Highway routes and jet cone boost status",
-    "Restored '> NEXT JUMP' button visibility and highlighting when FSD is supercharged or arrived at waypoint",
-    "Active Flight Directive HUD pill now seamlessly tracks personal ship destination and next hop in real time"
+    "Fixed HUD overlay navigation directive synchronization with active Spansh neutron routes.",
+    "Resolved premature route-clearing filter so in-game hops from NavRoute.json render in real-time.",
+    "Synchronized waypoint index counter with cockpit voice announcements."
   ]
 }
