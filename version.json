@@ -1,13 +1,12 @@
 {
-  "version": "1.0.22",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.22/CanopyNav_Setup_v1.0.22.exe",
-  "changelog": [
-    "Native Frontier GalNet news feed integration via official CMS transmission array",
-    "Spoken GalNet news reports via 'What is the latest GalNet news?', 'Read GalNet', or 'GalNet headlines'",
-    "Direct in-game GalNet audio controls ('Play GalNet', 'Pause GalNet', 'Next GalNet story', 'Clear GalNet queue')",
-    "Cockpit telemetry grounding to discuss recent galactic news in conversational queries",
-    "Updated Epiphany AI system prompt to eliminate anti-third-party disclaimers for GalNet lore"
-  ],
+  "version": "1.0.23",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.23/CanopyNav_Setup_v1.0.23.exe",
   "release_date": "2026-09-26",
-  "mandatory": false
+  "mandatory": false,
+  "changelog": [
+    "Fixed personal ship navigation being overridden by stale Fleet Carrier routes",
+    "Added automatic detection for in-game Neutron Highway routes and jet cone boost status",
+    "Restored '> NEXT JUMP' button visibility and highlighting when FSD is supercharged or arrived at waypoint",
+    "Active Flight Directive HUD pill now seamlessly tracks personal ship destination and next hop in real time"
+  ]
 }
