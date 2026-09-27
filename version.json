@@ -1,12 +1,11 @@
 {
-  "version": "1.0.26",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.26/CanopyNav_Setup_v1.0.26.exe",
+  "version": "1.0.27",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.27/CanopyNav_Setup_v1.0.27.exe",
   "release_date": "2026-09-27",
   "mandatory": false,
   "changelog": [
-    "Added automatic ship loadout resolution to accurately identify active starship custom names and chassis models.",
-    "Cleaned up Fleet Carrier services display and removed internal database Market ID.",
-    "Fixed HUD overlay navigation directive synchronization with active Spansh neutron routes.",
-    "Resolved premature route-clearing filter so in-game hops from NavRoute.json render in real-time."
+    "Added startup handshake tolerance for wireless and Bluetooth headsets.",
+    "Added defensive device validation and graceful silent overlay fallback when no recording devices are detected.",
+    "Enabled dynamic background microphone re-detection when headsets connect mid-session."
   ]
 }
