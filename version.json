@@ -1,13 +1,13 @@
 {
-  "version": "1.0.19",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.19/CanopyNav_Setup_v1.0.19.exe",
-  "release_notes": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/tag/v1.0.19",
-  "mandatory": false,
+  "version": "1.0.21",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.21/CanopyNav_Setup_v1.0.21.exe",
   "changelog": [
-    "HUD background cache invalidation on update detection",
-    "Fastly CDN cache-busting for real-time manifest updates",
-    "Visible Inno Setup progress during update",
-    "Clean restart sequence into interactive session",
-    "Voice spoken confirmation on startup"
-  ]
+    "High-priority red HUD alert badge for pending updates",
+    "Expanded mouse click bounding box for effortless badge clicking",
+    "Blocking Inno Setup execution with visible extraction progress",
+    "Automated session-aware relaunch sequence",
+    "Direct voice installation via 'Computer, install update' or 'update software'"
+  ],
+  "release_date": "2026-09-26",
+  "mandatory": false
 }
