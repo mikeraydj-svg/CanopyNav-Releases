@@ -1,11 +1,11 @@
 {
-  "version": "1.0.36",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.36/CanopyNav_Setup_v1.0.36.exe",
-  "release_date": "2026-09-27",
+  "version": "1.0.39",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.39/CanopyNav_Setup_v1.0.39.exe",
+  "release_date": "2026-09-28",
   "mandatory": true,
   "changelog": [
-    "Fixed a critical logic flaw where FSS scans containing Geological traits were inadvertently filtered out of the mining manifest.",
-    "Fixed a bug where the installer dropped the historical survey database, causing the Surface Mining overlay tab to freeze silently.",
-    "Rerouted the survey_data.json database to safely persist in the AppData directory to immunize it from future installer overwrites."
+    "Fixed a critical bug where the internal overlay telemetry thread was never started, causing the fuel gauge and route tracking to freeze.",
+    "Fixed Next Jump button positioning so it no longer overlaps with long destination waypoint text.",
+    "Added robust pre-flight asset verification and post-build bundle auditing to the installer pipeline."
   ]
 }
