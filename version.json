@@ -1,10 +1,9 @@
 {
-  "version": "1.0.45",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.45/CanopyNav_Setup_v1.0.45.exe",
+  "version": "1.0.46",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.46/CanopyNav_Setup_v1.0.46.exe",
   "release_date": "2026-09-28",
   "mandatory": true,
   "changelog": [
-    "Spansh Neutron Workflow: Added a strict FSD Supercharge safety lock that audibly warns the player and blocks the plot if they try to advance the jump before supercharging.",
-    "UI Clutter Fix: The Next Jump button now disappears instantly upon successfully plotting a route, rather than lingering while the ship is still supercharged."
+    "Surface Mining Fix: The Rhino SRV hold now correctly resets its tracked cargo count after performing a mothership Cargo Transfer."
   ]
 }
