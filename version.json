@@ -1,10 +1,9 @@
 {
-  "version": "1.0.41",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.41/CanopyNav_Setup_v1.0.41.exe",
+  "version": "1.0.42",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.42/CanopyNav_Setup_v1.0.42.exe",
   "release_date": "2026-09-28",
   "mandatory": true,
   "changelog": [
-    "Added 'Resume Route' voice command for re-locking Elite Dangerous routing targets after taking planetary detours.",
-    "Updated HTML and Markdown User Manuals to document the behavioral differences between CanopyNav Neutron jumps and Standard route resumptions."
+    "Patched Voice Routing Logic: Upgraded the 'Resume Route' voice trigger from an exact dictionary match to a flexible Regex pattern, allowing for natural speech variations like 'resume the route', 're-target my route', and preventing failures when Whisper appends extra punctuation."
   ]
 }
