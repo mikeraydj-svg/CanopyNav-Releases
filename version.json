@@ -1,11 +1,11 @@
 {
-  "version": "1.0.27",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.27/CanopyNav_Setup_v1.0.27.exe",
+  "version": "1.0.36",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.36/CanopyNav_Setup_v1.0.36.exe",
   "release_date": "2026-09-27",
-  "mandatory": false,
+  "mandatory": true,
   "changelog": [
-    "Added startup handshake tolerance for wireless and Bluetooth headsets.",
-    "Added defensive device validation and graceful silent overlay fallback when no recording devices are detected.",
-    "Enabled dynamic background microphone re-detection when headsets connect mid-session."
+    "Fixed a critical logic flaw where FSS scans containing Geological traits were inadvertently filtered out of the mining manifest.",
+    "Fixed a bug where the installer dropped the historical survey database, causing the Surface Mining overlay tab to freeze silently.",
+    "Rerouted the survey_data.json database to safely persist in the AppData directory to immunize it from future installer overwrites."
   ]
 }
