@@ -1,11 +1,11 @@
 {
-  "version": "1.0.39",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.39/CanopyNav_Setup_v1.0.39.exe",
+  "version": "1.0.40",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.40/CanopyNav_Setup_v1.0.40.exe",
   "release_date": "2026-09-28",
   "mandatory": true,
   "changelog": [
-    "Fixed a critical bug where the internal overlay telemetry thread was never started, causing the fuel gauge and route tracking to freeze.",
-    "Fixed Next Jump button positioning so it no longer overlaps with long destination waypoint text.",
-    "Added robust pre-flight asset verification and post-build bundle auditing to the installer pipeline."
+    "Removed forced artificial timeouts (2.5-second sleep penalties) prior to jump engagement.",
+    "Disabled automatic deployment/retraction logic inside the FSD voice routing.",
+    "Disabled the background VKB joystick monitor to prevent double-inputs and let the game handle FSD blockers natively."
   ]
 }
