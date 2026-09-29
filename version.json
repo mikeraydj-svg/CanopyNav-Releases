@@ -1,7 +1,8 @@
+
 {
-    "version": "1.0.47",
-    "release_date": "2026-09-28",
-    "release_notes": "https://github.com/mikeraydj-svg/CanopyNav-Releases/main/v1.0.47_Release_Notes.md",
-    "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.47/CanopyNav_Setup_v1.0.47.exe",
+    "version": "1.0.48",
+    "release_date": "2026-09-29",
+    "release_notes": "https://raw.githubusercontent.com/mikeraydj-svg/CanopyNav-Releases/main/v1.0.48_Release_Notes.md",
+    "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.0.48/CanopyNav_Setup_v1.0.48.exe",
     "mandatory": true
 }
