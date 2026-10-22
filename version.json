@@ -1,7 +1,7 @@
 {
-  "version": "1.1.6",
-  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v1.1.6/CanopyNav_Setup_v1.1.6.exe",
-  "release_notes": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/tag/v1.1.6",
+  "version": "2.0.1",
+  "download_url": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/download/v2.0.1/CanopyNav_Setup_v2.0.1.exe",
+  "release_notes": "https://github.com/mikeraydj-svg/CanopyNav-Releases/releases/tag/v2.0.1",
   "mandatory": false,
   "checksum": ""
 }
